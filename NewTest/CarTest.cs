@@ -19,9 +19,6 @@ namespace NewTest
             _licensplate = licensplate;
         }
 
-        public string Model
-        {
-            get { return _model; }
-        }
+        public string Model { get; }
     }
 }
