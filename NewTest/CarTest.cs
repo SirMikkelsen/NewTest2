@@ -18,5 +18,10 @@ namespace NewTest
             _price = price;
             _licensplate = licensplate;
         }
+
+        public string Model
+        {
+            get { return _model; }
+        }
     }
 }
